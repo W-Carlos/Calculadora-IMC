@@ -42,16 +42,35 @@ h1 {
 #input-idade {
     width: 200px;
     height: 30px;
+    outline: none;
 }
 
 #input-alt {
     width: 200px;
     height: 30px;
+    outline: none;
 }
 
 #input-peso {
     width: 200px;
     height: 30px;
+    outline: none;
+}
+
+#button-cal {
+    width: 180px;
+    height: 35px;
+    font-size: 18px;
+    margin-left: 50px;
+    background: #e07e51;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px;
+}
+
+#button-cal:hover {
+    background-color: #eba17f;
 }
 
 #res {
