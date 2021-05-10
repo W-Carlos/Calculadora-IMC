@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font: normal 15pt Arial;
     background: #EEEEEE;
@@ -5,11 +10,13 @@ body {
 
 section {
     margin: auto;
+    margin-top: 50px;
     background-color: #FFFFFF;
     width: 80%;
     height: 500px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(22, 22, 22, 0.541);
+    
 }
 
 .cabecalho {
@@ -26,8 +33,27 @@ h1 {
     padding: 15px;
 }
 
-main {
+.div-info {
     margin-top: 60px;
     margin-left: 30px;
+    
+}
 
+#input-idade {
+    width: 200px;
+    height: 30px;
+}
+
+#input-alt {
+    width: 200px;
+    height: 30px;
+}
+
+#input-peso {
+    width: 200px;
+    height: 30px;
+}
+
+#res {
+    
 }
