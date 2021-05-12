@@ -1,14 +1,18 @@
-let idade = document.getElementById('input-idade')
-let altura = document.getElementById('input-alt')
-let peso = document.getElementById('input-peso')
-let res = document.getElementById('res')
 
-function calcular () {
+function calcular() {
+    let idade = Number(document.getElementById('input-idade').value)
+    let altura = Number(document.getElementById('input-alt').value)
+    let peso = Number(document.getElementById('input-peso').value)
+    let res = document.getElementById('res')
+    
     //Validação de dados
-    if(idade.value.length == 0 || altura.value.length == 0 || peso.value.length == 0) {
+    if(idade == 0 || altura == 0 || peso == 0) {
         alert('erro')
     } else {
-        let res = peso / Number(altura * 2)
+        
+      let IMC = (peso / (altura * altura)).toFixed(2)
+
+      res.innerHTML = `${IMC}`
     }
-    res.innerHTML = `Você tem ${idade} anos e seu imc é ${res}`
+    
 }
