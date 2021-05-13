@@ -18,6 +18,7 @@ section {
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(22, 22, 22, 0.541);
     
+    
 }
 
 .cabecalho {
@@ -49,6 +50,8 @@ h1 {
     font-size: 20px;
     padding-left: 10px;
     text-align: center;
+    border: none;
+    border-bottom: 2px solid #5C9EAD;
 }
 
 #input-alt {
@@ -58,6 +61,8 @@ h1 {
     font-size: 20px;
     padding-left: 10px;
     text-align: center;
+    border: none;
+    border-bottom: 2px solid #5C9EAD;
 }
 
 #input-peso {
@@ -67,29 +72,33 @@ h1 {
     font-size: 20px;
     padding-left: 10px;
     text-align: center;
+    border: none;
+    border-bottom: 2px solid #5C9EAD;
 }
 
 #button-cal {
-    width: 250px;
+    width: 264px;
     height: 40px;
     font-size: 18px;
-    margin-left: 2px;
-    background: #e07e51;
+    margin-left: 1px;
+    background: #08415C;
     outline: none;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 5px;
     border: 1px;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(46, 44, 44, 0.418);
 }
 
 #button-cal:hover {
-    background-color: #eba17f;
+    background-color: #157aa8;
     
 }
 
 #res {
     margin-left: 450px;
     margin-top: -210px;
-    margin-right: 30px;
+    margin-right: 80px;
 }
 
 #res p {
