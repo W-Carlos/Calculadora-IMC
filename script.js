@@ -9,7 +9,7 @@ function calcular() {
     
     //Validação de dados
     if(idade == 0 || altura == 0 || peso == 0) {
-        res.innerHTML = 'Preencha todos od campos!'
+        res.innerHTML = 'Preencha todos os campos!'
     } else {
         
       let IMC = (peso / (altura * altura)).toFixed(1)
@@ -32,7 +32,7 @@ function calcular() {
           tabela = 'com obesidade grau 3 (mórbida)!'
       }
 
-      res.innerHTML = `Você tem ${idade} anos, seu IMC é de ${IMC} e você está ${tabela}`
+      res.innerHTML = `Você tem ${idade} anos, seu IMC é de <strong>${IMC}</strong> e você está <strong>${tabela}</strong>`
     }
     
 }

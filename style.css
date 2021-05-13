@@ -5,8 +5,9 @@
 
 body {
     font: normal 15pt Arial;
-    background: #EEEEEE;
+    /*background: #EEEEEE;*/
     font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(to right,#78FFD6, #c3c0eb);
 }
 
 section {
@@ -52,6 +53,7 @@ h1 {
     text-align: center;
     border: none;
     border-bottom: 2px solid #5C9EAD;
+    
 }
 
 #input-alt {
