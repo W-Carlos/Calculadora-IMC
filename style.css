@@ -6,6 +6,7 @@
 body {
     font: normal 15pt Arial;
     background: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -34,35 +35,45 @@ h1 {
 }
 
 .div-info {
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 30px;
     
     width: 500px;
+    font-size: 18px;
 }
 
 #input-idade {
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 35px;
     outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 #input-alt {
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 35px;
     outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 #input-peso {
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 35px;
     outline: none;
+    font-size: 20px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 #button-cal {
-    width: 180px;
-    height: 35px;
+    width: 250px;
+    height: 40px;
     font-size: 18px;
-    margin-left: 50px;
+    margin-left: 2px;
     background: #e07e51;
     outline: none;
     cursor: pointer;

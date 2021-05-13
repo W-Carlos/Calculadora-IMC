@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>  
     <section>
@@ -14,14 +16,17 @@
         </div>
         <div class="div-info">
             <h3>Digite suas informações</h3><br>
-            Idade:<input type="number" name="input-idade" id="input-idade"><br><br>
-            Altura:  <input type="number" name="alt" id="input-alt"><br><br>
-            Peso: <input type="number" name="peso" id="input-peso"><br><br>
-            <input type="button" value="Calcular" id="button-cal" onclick="calcular()">
+            Idade:<br>
+            <input type="number" name="input-idade" id="input-idade"><br><br>
+            Altura:<br>  
+            <input type="number" name="alt" id="input-alt"><br><br>
+            Peso: <br>
+            <input type="number" name="peso" id="input-peso"><br><br>
+            <input type="button" value="CALCULAR" id="button-cal" onclick="calcular()">
         </div>
         <div id="res">
             
-            <p>O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Desenvolvido pelo polímata Lambert Quételet no fim do século XIX, trata-se de um método fácil e rápido para a avaliação do nível de gordura de cada pessoa</p>
+            <p>O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Desenvolvido pelo polímata Lambert Quételet, trata-se de um método fácil e rápido para a avaliação do nível de gordura de cada pessoa</p>
         </div>
     </section>
     <script src="script.js"></script>
