@@ -14,7 +14,7 @@ section {
     margin-top: 50px;
     background-color: #FFFFFF;
     width: 80%;
-    height: 500px;
+    height: 550px;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(22, 22, 22, 0.541);
     
@@ -95,9 +95,28 @@ h1 {
     
 }
 
+#button-limp {
+    width: 264px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    
+    outline: none;
+    cursor: pointer;
+    background-color: #CC2936;
+    border-radius: 5px;
+    border: 1px;
+    color: white;
+    box-shadow: 3px 3px 5px rgba(46, 44, 44, 0.418);
+}
+
+#button-limp:hover {
+    background-color: #df4b57;
+}
+
 #res {
     margin-left: 450px;
-    margin-top: -210px;
+    margin-top: -270px;
     margin-right: 80px;
 }
 

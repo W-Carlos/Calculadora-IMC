@@ -36,3 +36,9 @@ function calcular() {
     }
     
 }
+
+//Botão para limpar os campos
+
+function limpar() {
+    
+}
