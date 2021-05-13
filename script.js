@@ -40,5 +40,9 @@ function calcular() {
 //Botão para limpar os campos
 
 function limpar() {
-    
+    if(document.getElementById('input-idade').value!="" || document.getElementById('input-alt').value!="" || document.getElementById('input-peso').value!="") {
+        document.getElementById('input-idade').value=''
+        document.getElementById('input-alt').value=''
+        document.getElementById('input-peso').value=''
+    }
 }
